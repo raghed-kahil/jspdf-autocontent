@@ -1,12 +1,17 @@
 {
   "name": "jspdf-autocontent",
-  "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "types": "dist/types.d.ts",
+  "main": "dist/main.js",
+  
   "author": {
     "email": "kahilraghed@gmail.com",
     "name": "Raghed kahil"
   },
+  "keywords": [
+    "jspdf", "pdf"
+  ],
   "readme": "README.md",
   "repository": {
     "url": "https://github.com/raghed-kahil/jspdf-autocontent"

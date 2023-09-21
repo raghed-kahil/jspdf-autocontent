@@ -49,7 +49,7 @@ todo : upload to cdn
     const pdf = new jsPdf({
         unit: 'pt' // only use pt will be fixed
     })
-    .generate(/* Content */  [
+    pdf.generate(/* Content */  [
         // string
         'Title 1',
         
@@ -109,5 +109,6 @@ todo : upload to cdn
 - Add more content types.
 - Fix add mutiple unit support.
 - Add docs.
+- Add demo.
 - Add more todo :)
 
