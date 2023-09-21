@@ -2,7 +2,7 @@
 
 plugin created for auto generated content.
 
-inspired from pdf-make.
+inspired from [pdfmake](https://www.npmjs.com/package/pdfmake)
 
 ## Futures
 - styling
