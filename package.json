@@ -4,6 +4,7 @@
   "type": "module",
   "types": "dist/types.d.ts",
   "main": "dist/main.js",
+  "browser": "dist/main.umd.cjs",
   
   "author": {
     "email": "kahilraghed@gmail.com",
