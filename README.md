@@ -112,3 +112,6 @@ todo : upload to cdn
 - Add demo.
 - Add more todo :)
 
+# Contribution
+
+All contributions are welcome

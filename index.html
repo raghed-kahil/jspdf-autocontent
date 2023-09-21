@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JsPDF</title>
+  <title>JsPDF Autowrap</title>
 </head>
 
 <body>
@@ -13,10 +13,15 @@
     <!-- <iframe id="pdf-frame" src="" frameborder="0"></iframe> -->
   </div>
   <script type="module">
-    import { } from '/src/main.ts';
+    import '/src/main.ts';
+    import { jsPDF } from 'jspdf'
 
-
-    let pdfUrl = '';
+    const pdf = new jsPDF({
+      unit: 'pt'
+    });
+    pdf.generate([]);
+    pdf.output('bloburl')
+    let pdfUrl = pdf.output('bloburl');
 
     document.querySelector('#app').innerHTML = `
   <div>
