@@ -1,0 +1,26 @@
+{
+  "name": "jspdf-autocontent",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "author": {
+    "email": "kahilraghed@gmail.com",
+    "name": "Raghed kahil"
+  },
+  "readme": "README.md",
+  "repository": {
+    "url": "https://github.com/raghed-kahil/jspdf-autocontent"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && tsc --build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.1"
+  }
+}
